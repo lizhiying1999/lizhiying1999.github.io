@@ -84,7 +84,11 @@ a.myStyle2{
 		height: 600px;
 	
 
-		margin: 90px  350px;
+		margin-top: 90px;
+		margin-bottom: 90px;
+		margin-left: 500px;
+		margin-right: 500px;
+		text-align: center;
 		
 		
 		overflow-x: hidden;

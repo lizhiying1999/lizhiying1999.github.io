@@ -1,0 +1,85 @@
+
+body{
+	margin:0;
+	padding: 0;
+	background-color: #FFC074 ;
+
+	
+
+}
+
+
+.cc{
+	margin-top:70px;
+	margin-left:100px;
+
+
+text-align: left;}
+
+
+
+.container{
+	max-width: 1000px;
+	margin: 150px auto;
+	
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around ;
+}
+.card{
+	position: relative;
+	
+	width: 200px;
+	height: 200px;
+	background:url(./pics/22.jpg) ;
+	background-size:200px ;
+	transform-style: preserve-3d;
+	transform: perspective(2000px);
+	transition: 2s;
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.5);
+}
+
+.card:hover
+{
+	z-index: 1000;
+	transform: perspective(2000px) rotate(-10deg);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.5);
+}
+.card .imgBox
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #CBA476;
+	box-sizing: border-box;
+	transform-origin: left;
+	z-index: 1;
+	transition: 2s;
+}
+.card:hover .imgBox
+{
+	transform: rotateY(-135deg);
+
+}
+.card .imgBox.img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card .details
+{
+	position: absolute;
+	top: 0;
+	left:0;
+	box-sizing: border-box;
+	
+}
+
+
+

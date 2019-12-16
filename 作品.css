@@ -1,0 +1,106 @@
+body{
+	margin:0;
+	padding: 0;
+	
+}
+.cc{
+	margin-top:70px;
+	margin-left:100px;
+
+
+text-align: left;}
+
+div {
+			position: absolute;
+			margin: 0;
+			text-align: left;
+			width: 100px;
+			height: 50px;
+			
+			
+		}
+		div#d1{
+			text-align: left;
+			max-width: 1000px;
+			margin:100px 450px ;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+
+		}
+		div#d2{
+			width: 100px;
+			height: 200px;
+			left: 70px;
+			margin:100px 150px ;
+			z-index: -1; 
+
+		}
+		div#d3{
+			width: 100px;
+			height: 200px;
+			left: 70px;
+			margin:170px 150px ;
+			z-index: -1; 
+
+		}
+		div#d4{
+			width: 100px;
+			height: 200px;
+			left: 70px;
+			margin:220px 150px ;
+			z-index: -1; 
+
+		}
+	
+a.myStyle2{
+			font-family:'Roboto Slab', serif;
+
+		}
+		a.myStyle2:link{
+			color: #900000;
+			text-decoration-line: none;
+		}
+
+		a.myStyle2:hover{
+			color: #fff;
+			
+			
+		}
+		a.myStyle2:active{
+			color: #fff;
+			background-color: #900000;
+			font-weight: bold;
+			text-decoration-line: none;
+		}
+		a.myStyle2:visited{
+			color: #900000;
+			font-weight: normal;
+			text-decoration-line: none;
+		}
+
+.scroll {
+		width: 800px;
+		height: 600px;
+	
+
+		margin: 90px  350px;
+		
+		
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	/* width */
+	.scroll::-webkit-scrollbar {
+		width: 10px;
+	}
+	
+	/* Handle */
+	.scroll::-webkit-scrollbar-thumb {
+		background: #FFAA82; 
+		border-radius: 10px;
+	}
+	/* Handle on hover */
+	.scroll::-webkit-scrollbar-thumb:hover {
+		background: #FFAA82; 
+	}
